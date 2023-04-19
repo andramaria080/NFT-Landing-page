@@ -864,3 +864,11 @@ div > .ph-footer {
     height: 250px;
   }
 }
+@media screen and (max-width: 360px) {
+  .footer-margin > .row-space-between {
+    flex-direction: column;
+  }
+  div > .ph-footer {
+    flex-direction: column;
+  }
+}
